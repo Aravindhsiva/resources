@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Aravindh Repository">
-    <meta name="author" content="Aravindh">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="icon" href="https://opengameart.org/sites/default/files/Flat%20Folder%20icon.png">
 
     <title>Aravindh Repo</title>
@@ -20,6 +20,7 @@
             padding-top: 5rem;
         }
         li{
+            cursor: pointer;
             list-style: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFHSURBVDhPxZXPSoRQFIettkHME7WZ1egEk16oOw5ELaIXGNqERI8QtG0XvUEP0K5NELWcZVCO5phl/u3kuXOtUa8kRPjBD8Fzz4fXi0epDCFkRZZppxyaBejhd+7kg45hGMu8TUxPHeqKOnxVt3fdcjS65z7uH9tAxoA5H59McC328PYKS4qqu1PLhlqOzpiM5foWzKkFyiZ1sXeuWKDbJWuDrR2Pt4opCRHsWSdklWt++IuQK4o0Ep5eAtxPAC6uAG4e2K2+NvK5okgjoYDegIZcUeTfhXGSQhglwmAtp7HQ80OYvQXCYC2nvS073geYzrswWMtp7wn9IGLvajH5YWAtp7EQT9MP4kLS9JPVojhhV6S9LTelVpjBxpdlv/Clv/P0bGbfsu7w/irzAatXhmtd+qo+29BGhLeLwbEu+gWIUv0FSNIX/NWMMkBkkysAAAAASUVORK5CYII=);
             margin:16px 0;
             font-size: 20px;
@@ -65,7 +66,33 @@ $(document).ready(function(){
         <li><a href="https://dl.dropboxusercontent.com/s/hoyf3ihcqk2liho/Java_TheCompeteReference_HerbertSchildt_Edtion_9_eCampus.pdf?dl=0">Java_TheCompeteReference_HerbertSchildt_Edtion_9_eCampus</a></li>
     <li><a href="Sublime Text Build 3143 x64.zip">Sublime Latest Portable</a></li>
     <li><a href="1613007.zip" title="Language Basics&#10;FlowControl&#10;Arrays">Wipro Final 1613007.zip</a></li>
+           <li><a data-target="#myModal" data-toggle="modal">Assignments</a></li>
     </ul>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Assignments Folder</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a href="lang.pdf"><li>Language Basics</li></a>
+          <a href="flow.pdf"><li>Flow Control</li></a>
+          <a href="array.pdf"><li>Arrays</li></a>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
     </main><!-- /.container -->   
 
 </body>
