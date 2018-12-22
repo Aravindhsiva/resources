@@ -30,7 +30,7 @@ public class valid {
 	public static void main(String[] args) {
 		Scanner x = new Scanner(System.in);
 		System.out.println("Enter your Id,Name,Number,Email:");
-		/*int id = x.nextInt();
+		int id = x.nextInt();
 		x.nextLine();
 		String name=x.nextLine();
 		String num = x.next();
@@ -38,15 +38,6 @@ public class valid {
 		System.out.println("Name :     "+isvalid(name,""));
 		System.out.println("ID :       "+isvalid(id));
 		System.out.println("Number :   "+isvalid(num));
-		System.out.println("Email Id : "+isvalid(email,1));*/
-//		int id = x.nextInt();
-//		x.nextLine();
-//		String name=x.nextLine();
-//		String num = x.next();
-//		String email = x.next();
-		System.out.println("Name :     "+isvalid("Aravindh",""));
-		System.out.println("ID :       "+isvalid(123456));
-		System.out.println("Number :   "+isvalid("7339513140"));
-		System.out.println("Email Id : "+isvalid("aravindhsiva@paperclip.com",1));
+		System.out.println("Email Id : "+isvalid(email,1));
 	}
 }
